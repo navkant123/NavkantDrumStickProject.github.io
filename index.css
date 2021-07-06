@@ -1,0 +1,52 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    height: 50%;
+    width: 100%;
+    background-color:darkgray;
+    margin-top: 20%
+}
+.keys
+{
+    width: 95%;
+    position: relative;
+    top: 32%;
+    height: 30%;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.key
+{
+ border-radius: 8px;   
+ border: 6.4px solid gray;
+height: 80%;
+width: 8%;
+text-align: center;
+background-color: rgba(0,0,0,0.4);
+transition: all 0.07s ease;
+}
+kbd
+{
+  display: block;
+  font-size: 64px;
+}
+span
+{
+    font-size: 12.8px;
+    color: red;
+    text-transform: uppercase;
+}
+.playing
+{
+    transform: scale(1.1);
+    border-color: #ffc600;
+     box-shadow: 0 0 16px #ffc600;
+}
